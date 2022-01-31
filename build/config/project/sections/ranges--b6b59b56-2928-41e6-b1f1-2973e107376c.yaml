@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: ranges
+name: Ranges
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  304ff248-69ec-4eb4-a7cc-6953f5e87cee: # Luxury Rugs
+    enabledByDefault: true
+    hasUrls: true
+    template: ranges/_entry
+    uriFormat: 'ranges/{slug}'
+type: channel

@@ -1,0 +1,39 @@
+.nav {
+	&--main {
+		display: flex;
+		flex-direction: row;
+		flex: 1;
+		gap: 1rem;
+		align-items: center;
+		font-weight: 400;
+		font-variation-settings: 'wght' 400;
+
+		&-left {
+			flex: 1;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		&-logo {
+			flex: 0;
+		}
+
+		&-right {
+			display: flex;
+			justify-content: flex-start;
+			flex: 1;
+		}
+	}
+
+	&__link {
+		display: block;
+		padding: 1rem 0.75rem;
+		text-decoration: none;
+		color: $colour__nav-link;
+		transition: color 0.25s linear;
+
+		&:hover {
+			color: $colour__nav-link--hover;
+		}
+	}
+}

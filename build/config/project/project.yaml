@@ -1,0 +1,156 @@
+dateModified: 1643274076
+email:
+  fromEmail: $SYSTEM_EMAIL_ADDRESS
+  fromName: $SYSTEM_EMAIL_FROM
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    messageStream: $POSTMARK_MESSAGE_STREAM
+    token: $POSTMARK_SERVER_TOKEN
+  transportType: craftcms\postmark\Adapter
+meta:
+  __names__:
+    0a8fe177-a450-4d64-b466-353da836528a: 'Made to order' # Made to order
+    1c9d1c7d-a832-4582-82b9-d44e8fc91bb8: Categories # Categories
+    1d54b1a5-c824-4b9e-872a-7a2db9c3ddb7: 'Style options' # Style options
+    4b036f6f-1766-43ef-8c06-1435e022629a: Blog # Blog
+    4db1c7be-7b18-4c41-8d06-c9d3d4eaaf45: Body # Body
+    4f51415f-76c0-491c-bcec-200eba09b420: Description # Description
+    5aa0b33b-0f88-44ee-baeb-75f2adf57922: New # New
+    5acf208f-d097-49b7-9342-13cb0b389489: Range # Range
+    6c7d5fef-f085-4f50-b1f8-5eec849ac034: Default # Default
+    6dafa969-8d76-4e9e-bc7c-16177e1e23e8: Products # Products
+    7f1a7026-bdc4-4cc1-b577-a90f32b04ca2: Blog # Blog
+    22e2ce27-ba3d-497b-a833-fea4dbaf5572: 'Luxury Rugs' # Luxury Rugs
+    37b9e384-ce1d-47b5-9ab8-58dd4f387adc: 'Short description' # Short description
+    40b97f00-71a9-432d-b5cf-14eae84be271: Article # Article
+    49c4701c-925f-49e5-940d-e89b6cec58b8: 'Main image' # Main image
+    97d470f4-4d24-4137-bf89-c42a3275f002: Body # Body
+    153e1c23-b6c2-4a2c-90e0-5515ec9d2526: 'Alt text' # Alt text
+    304ff248-69ec-4eb4-a7cc-6953f5e87cee: 'Luxury Rugs' # Luxury Rugs
+    530c9368-c8d8-432c-bb93-ca2e9f1337ad: Products # Products
+    628d174f-845c-456f-b95c-8e02e34003d3: Assets # Assets
+    6527a0fb-89b2-4131-b27d-986292378117: Sizes # Sizes
+    9020a52f-2001-473e-b989-b26cdfccf7fd: Blog # Blog
+    76138d87-46b2-403c-b41c-48517bee7843: Colours # Colours
+    675422ee-6040-4776-9942-c98530f4a5e1: Services # Services
+    10931813-7f88-4776-9cab-f53ed9eeb8cc: Categories # Categories
+    a0c94aa4-0cd5-48ef-a71b-651d9d25154f: Colours # Colours
+    a414f7f7-c01c-46e2-9ed9-805502ec93c1: Caption # Caption
+    ad042423-1d7d-4ac3-b18a-2821bcb07d96: Products # Products
+    aeaef0fe-cfab-47fb-9c6d-fec3dde6ef05: Colours # Colours
+    b0831217-ea37-4aaa-80ec-c2d8eda8a44e: Style # Style
+    b6b59b56-2928-41e6-b1f1-2973e107376c: Ranges # Ranges
+    b12fb6ce-9eb5-4223-b005-7db6cffac2f3: Manufacturer # Manufacturer
+    c04256e7-47f7-4dc1-acf0-67fa188f5610: 'Product image' # Product image
+    c4cfe1af-f621-46a3-a27d-3d33be1848df: Wishlist # Wishlist
+    c65a06cd-22cf-416f-a462-d7ace7da2602: SEO # SEO
+    d06ca08d-0a19-47f3-82b2-0fc835e62967: Stripe # Stripe
+    d8aa7660-2447-4848-b758-430997b88ff0: Common # Common
+    d98bb7d2-568d-4b99-b687-2078056bba44: 'SEO Overrides' # SEO Overrides
+    df4b8500-ac86-4079-bf39-ed5a6988ad81: Rugs # Rugs
+    fbda497b-a189-4151-8e75-8d5d2ba2c368: Size # Size
+plugins:
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: 1DBRQNWRONYXT6XKCDM52SDD
+    schemaVersion: 3.4.12
+    settings:
+      _orderPdfPath: null
+      activeCartDuration: 3600
+      allowCheckoutWithoutPayment: false
+      allowEmptyCartOnCheckout: false
+      allowPartialPaymentOnCheckout: false
+      autoSetCartShippingMethodOption: false
+      autoSetNewCartAddresses: true
+      cartVariable: cart
+      defaultView: commerce/orders
+      dimensionUnits: cm
+      emailSenderAddress: $STATUS_EMAIL_ADDRESS
+      emailSenderAddressPlaceholder: null
+      emailSenderName: $STATUS_FROM_NAME
+      emailSenderNamePlaceholder: null
+      freeOrderPaymentStrategy: complete
+      gatewayPostRedirectTemplate: ''
+      loadCartRedirectUrl: null
+      minimumTotalPriceStrategy: default
+      orderReferenceFormat: '{{number[:7]}}'
+      paymentCurrency: null
+      pdfAllowRemoteImages: false
+      pdfPaperOrientation: portrait
+      pdfPaperSize: letter
+      purgeInactiveCarts: true
+      purgeInactiveCartsDuration: 7776000
+      requireBillingAddressAtCheckout: false
+      requireShippingAddressAtCheckout: false
+      requireShippingMethodSelectionAtCheckout: false
+      showCustomerInfoTab: true
+      updateBillingDetailsUrl: ''
+      updateCartSearchIndexes: true
+      useBillingAddressForTax: false
+      validateBusinessTaxIdAsVatId: false
+      validateCartCustomFieldsOnSubmission: false
+      weightUnits: kg
+  commerce-stripe:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.4.1
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  craftagram:
+    edition: standard
+    enabled: true
+    licenseKey: P341Z4XBH5UFFSL9MWU8EYII
+    schemaVersion: 1.4.4
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  mix:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      assetPath: /
+      publicPath: public
+  postmark:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.1
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: GB1CJW0C5L5ALO9LXP93DEF6
+    schemaVersion: 3.0.11
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  ukcounties:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  wishlist:
+    edition: standard
+    enabled: true
+    licenseKey: H9BEMW8QAZQRP44OSUTDC26M
+    schemaVersion: 1.0.4
+system:
+  edition: pro
+  live: true
+  name: 'Luxury Rugs'
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,39 @@
+columnSuffix: ivjbzfrz
+contentColumnType: text
+fieldGroup: 6dafa969-8d76-4e9e-bc7c-16177e1e23e8 # Products
+handle: sizeOptions
+instructions: ''
+name: 'Style options'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Style
+            -
+              - handle
+              - styleText
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

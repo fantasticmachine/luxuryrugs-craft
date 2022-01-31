@@ -1,0 +1,36 @@
+columnSuffix: pawkllrc
+contentColumnType: text
+fieldGroup: c65a06cd-22cf-416f-a462-d7ace7da2602 # SEO
+handle: seoOverrides
+instructions: ''
+name: 'SEO Overrides'
+searchable: false
+settings:
+  elementDisplayPreviewType: google
+  facebookTabEnabled: ''
+  generalEnabledFields:
+    - seoPreview
+    - mainEntityOfPage
+    - seoTitle
+    - siteNamePosition
+    - seoDescription
+    - seoKeywords
+    - seoImage
+    - seoImageTransform
+    - seoImageTransformMode
+    - seoImageDescription
+    - robots
+    - canonicalUrl
+  generalTabEnabled: '1'
+  sitemapTabEnabled: ''
+  twitterEnabledFields:
+    - seoPreview
+    - twitterCardType
+    - twitterCreator
+    - twitterTitle
+    - twitterSiteNamePosition
+    - twitterDescription
+  twitterTabEnabled: ''
+translationKeyFormat: null
+translationMethod: none
+type: nystudio107\seomatic\fields\SeoSettings

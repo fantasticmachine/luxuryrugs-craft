@@ -1,0 +1,33 @@
+<header class="header--site header__container">
+	<div class="header__top-bar">
+		<div class="header__phone-number">Our phone number: 0207 349 7277</div>
+		<div class="header__account-nav"><a href="/my-account">My Account</a></div>
+	</div>
+
+	<div class="header__main">
+		<div class="header__links">
+			<a class="icon--sli header__search" href="#">Search</a>
+			<a class="icon--sli header__favourite" href="#">Favourites</a>
+		</div>
+
+		<nav class="nav--main">
+			<div class="nav--main-left">
+				<a class="nav__link" href="#">About</a>
+				<a class="nav__link" href="#">All Rugs</a>
+				<a class="nav__link" href="#">Services</a>
+				<a class="nav__link" href="#">Style</a>
+			</div>
+			<a href="/"><img class="header__nav-logo nav--main-logo" src="/images/luxuryrugslogo.png" alt="Luxury Rugs logo"></a>
+			<div class="nav--main-right">
+				<a class="nav__link" href="#">Contact</a>
+				<a class="nav__link" href="#">Delivery</a>
+				<a class="nav__link" href="#">Blog</a>
+			</div>
+		</nav>
+
+		<div class="header__basket">
+			{{ cart.lineItems.total ?? '0' }} / <span class="header__basket--price">{{ cart.total|commerceCurrency(cart.currency ?? 'GBP') }}</span>
+		</div>
+	</div>
+
+</header>

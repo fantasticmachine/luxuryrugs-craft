@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Karla';
+	src: url('/fonts/karla/Karla-VariableFont_wght.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Simple-Line-Icons';
+	src:
+		url('/fonts/Simple-Line-Icons.woff2') format('woff2'),
+		url('/fonts/Simple-Line-Icons.woff') format('woff'),
+		url('/fonts/Simple-Line-Icons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

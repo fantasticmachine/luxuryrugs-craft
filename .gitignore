@@ -1,0 +1,42 @@
+# Craft specific
+build/.env
+build/.idea
+build/vendor
+build/storage/backups/
+build/storage/runtime/
+build/storage/userphotos/
+
+# Upload directories
+
+
+# Mac specific
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Thumbs.db
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+bower_components
+node_modules
+.tmp
+.sass_cache
+.codekit-cache
+node_modules

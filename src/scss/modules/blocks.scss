@@ -1,0 +1,22 @@
+.block {
+	padding: 2rem 2rem;
+
+	&--with-bg {
+		background: url(/images/background3.jpg) center center;
+	}
+
+	&--centered {
+		text-align: center;
+	}
+
+	&--intro {
+		text-align: center;
+	}
+
+
+	&__container {
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}

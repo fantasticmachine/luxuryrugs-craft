@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: 'Luxury Rugs'
+primary: true
+siteGroup: 22e2ce27-ba3d-497b-a833-fea4dbaf5572 # Luxury Rugs
+sortOrder: 1

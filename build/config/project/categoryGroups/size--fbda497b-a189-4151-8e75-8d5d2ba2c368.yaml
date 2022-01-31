@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  f8c21850-02b0-4624-9862-ac794f0fedf7:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: size
+name: Size
+siteSettings:
+  304ff248-69ec-4eb4-a7cc-6953f5e87cee: # Luxury Rugs
+    hasUrls: true
+    template: null
+    uriFormat: 'size/{slug}'
+structure:
+  maxLevels: null
+  uid: 4d1a3357-729d-41d1-ac2e-e94c4b1e83b8

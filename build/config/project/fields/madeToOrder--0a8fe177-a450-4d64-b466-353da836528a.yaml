@@ -1,0 +1,14 @@
+columnSuffix: bogjhxhn
+contentColumnType: boolean
+fieldGroup: 6dafa969-8d76-4e9e-bc7c-16177e1e23e8 # Products
+handle: madeToOrder
+instructions: 'Is this a made to order product'
+name: 'Made to order'
+searchable: false
+settings:
+  default: false
+  offLabel: Stock
+  onLabel: 'Made to order'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

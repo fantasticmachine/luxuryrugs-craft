@@ -1,0 +1,95 @@
+.header {
+
+	&--site {
+		font-size: 0.9rem;
+	}
+
+	&__phone-number {
+		&::before {
+			content: "\e600";
+			font-family: 'Simple-Line-Icons', sans-serif;
+			transform: translateY(0.25em);
+			display: inline-block;
+			margin-right: 0.25em;
+		}
+	}
+
+	&__search {
+		font-size: 0;
+		text-decoration: none;
+		color: $colour__body-text;
+		margin-right: 1rem;
+
+		&::before {
+			content: "\e090";
+			font-size: 1.25rem;
+		}
+	}
+
+	&__favourite {
+		font-size: 0;
+		text-decoration: none;
+		color: $colour__body-text;
+
+		&::before {
+			content: "\e08a";
+			font-size: 1.25rem;
+		}
+	}
+
+	&__basket {
+		&::before {
+			font-family: 'Simple-Line-Icons', sans-serif;
+			transform: translateY(0.25em);
+			display: inline-block;
+			content: "\e04e";
+			font-size: 1.25em;
+			margin-right: 0.25em;
+		}
+
+		&--loaded {
+			content: "\e04d";
+		}
+
+		&--price {
+			font-weight: 300;
+			font-variation-settings: 'wght' 500;
+		}
+	}
+
+	&__container {
+		background: $colour__header-bg;
+		text-transform: uppercase;
+		font-weight: 200;
+		font-variation-settings: 'wght' 250;
+	}
+
+	&__top-bar {
+		background: $colour__top-bar-bg;
+		color: $colour__top-bar-text;
+		padding: 1rem 3rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		a {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+
+	&__main {
+		padding: 1rem 3rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 2rem;
+		align-items: center;
+	}
+
+	&__nav-logo {
+		max-width: 80px;
+		min-width: 80px;
+		width: 100%;
+	}
+}

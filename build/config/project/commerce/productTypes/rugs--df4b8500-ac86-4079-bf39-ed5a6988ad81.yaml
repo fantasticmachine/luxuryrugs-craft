@@ -1,0 +1,162 @@
+descriptionFormat: '{product.title} - {width|number_format} x {length|number_format}'
+handle: rugs
+hasDimensions: true
+hasProductTitleField: true
+hasVariantTitleField: false
+hasVariants: true
+name: Rugs
+productFieldLayouts:
+  f8482ffc-ea76-472e-9249-329f92fd6b64:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\commerce\fieldlayoutelements\ProductTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: c04256e7-47f7-4dc1-acf0-67fa188f5610 # Product image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 37b9e384-ce1d-47b5-9ab8-58dd4f387adc # Short description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4f51415f-76c0-491c-bcec-200eba09b420 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\commerce\fieldlayoutelements\VariantsField
+            warning: null
+        name: Content
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: aeaef0fe-cfab-47fb-9c6d-fec3dde6ef05 # Colours
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6527a0fb-89b2-4131-b27d-986292378117 # Sizes
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Categories
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: d98bb7d2-568d-4b99-b687-2078056bba44 # SEO Overrides
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: SEO
+        sortOrder: 3
+productTitleFormat: ''
+siteSettings:
+  304ff248-69ec-4eb4-a7cc-6953f5e87cee: # Luxury Rugs
+    hasUrls: true
+    template: products/_product
+    uriFormat: 'product/{slug}'
+skuFormat: '{product.slug}-{width}x{length}'
+titleFormat: '{width|number_format} x {length|number_format}'
+variantFieldLayouts:
+  1d952d64-1dbf-470f-a9a1-db4a694ad11e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\commerce\fieldlayoutelements\VariantTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0a8fe177-a450-4d64-b466-353da836528a # Made to order
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 49c4701c-925f-49e5-940d-e89b6cec58b8 # Main image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1

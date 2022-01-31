@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: services
+name: Services
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  304ff248-69ec-4eb4-a7cc-6953f5e87cee: # Luxury Rugs
+    enabledByDefault: true
+    hasUrls: true
+    template: services/_entry
+    uriFormat: 'services/{slug}'
+structure:
+  maxLevels: null
+  uid: 90f60d4e-c426-492e-ad2b-be7d1f264c1f
+type: structure

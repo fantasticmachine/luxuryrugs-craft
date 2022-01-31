@@ -1,0 +1,19 @@
+columnSuffix: zcklegdh
+contentColumnType: text
+fieldGroup: 628d174f-845c-456f-b95c-8e02e34003d3 # Assets
+handle: caption
+instructions: ''
+name: Caption
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
