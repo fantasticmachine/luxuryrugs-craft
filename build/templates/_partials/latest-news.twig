@@ -8,9 +8,10 @@
 		mode: 'crop'
 	}
 %}
+<div class="js-masonry">
 {% for article in articles.all() %}
 	{% set image = article.mainImage.one() ?? null %}
-	<div class="card--news js-masonry">
+	<a href="{{ article.url }}" class="card--news">
 		{% if image %}
 		{% set imageSrc = image.url(transform) %}
 		<div class="card__image" style="background-image: url({{ imageSrc }}); background-position: center; background-scale: cover; background-repeat: no-repeat; width: 300px;">
@@ -21,5 +22,6 @@
 			<h3>{{ article.title }}</h3>
 			{{ article.body | chop(limit=20, unit='w') | trim('.','right') | raw }}&hellip;
 		</div>
-	</div>
+	</a>
 {% endfor %}
+</div>
