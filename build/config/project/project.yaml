@@ -1,4 +1,4 @@
-dateModified: 1643274076
+dateModified: 1644077174
 email:
   fromEmail: $SYSTEM_EMAIL_ADDRESS
   fromName: $SYSTEM_EMAIL_FROM
@@ -142,6 +142,10 @@ plugins:
     enabled: true
     licenseKey: H9BEMW8QAZQRP44OSUTDC26M
     schemaVersion: 1.0.4
+  wordsmith:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.0.0.0
 system:
   edition: pro
   live: true

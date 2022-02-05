@@ -42,5 +42,58 @@
 
 			</div>
 		</div>
+
+		<div class="block block--with-img-bg block--centered" style="background:url(/images/colurs.jpg) center center no-repeat;background-size:cover;">
+			<h2>Premium Quality Luxury Rugs</h2>
+
+			<p><a href="/contact">Contact Us</a></p>
+		</div>
+
+
+		<div class="block block--testimonials block--centered block--with-bg">
+			<div class="glide">
+  				<div class="glide__track" data-glide-el="track">
+					<ul class="glide__slides">
+
+						<li class="testimonial glide__slide">
+							<p>I am really happy with the rugs that I bought from Steven at Luxury Rugs, he has some great interior design ideas and really helped us to choose the right rugs for our house.</p>
+
+							<cite>Stuart Davies <span>- Happy Customer</span></cite>
+						</li>
+
+						<li class="testimonial glide__slide">
+							<p>Great range of rugs and great level of service, highly recommend them.</p>
+
+							<cite>Darren Burrows <span>- Happy Customer</span></cite>
+						</li>
+
+						<li class="testimonial glide__slide">
+							<p>We are delighted with the rug that we bought from Luxury Rugs, it was not the cheapest rug but the quality is fantastic and the design transforms the look of the room.</p>
+
+							<cite>David Jenkins <span>- Happy Customer</span></cite>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="block block--instagram block--centered">
+			Instagram
+		</div>
+	</section>
+
+	<section class="block block--news">
+		<h2 class="heading--separator">Latest News</h2>
+
+		<hr>
+		{% set params =
+			 {
+				perPage: 6,
+				more: true
+			}
+		%}
+		{% include('_partials/latest-news')
+			with params
+		%}
 	</section>
 {% endblock %}
