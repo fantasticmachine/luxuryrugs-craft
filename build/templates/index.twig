@@ -51,41 +51,30 @@
 
 
 		<div class="block block--testimonials block--centered block--with-bg">
-			<div class="glide">
-  				<div class="glide__track" data-glide-el="track">
-					<ul class="glide__slides">
+			{% set slides = [
+					{
+						content: "<p>I am really happy with the rugs that I bought from Steven at Luxury Rugs, he has some great interior design ideas and really helped us to choose the right rugs for our house.</p>",
+						cite: "Stuart Davies <span>- Happy Customer</span>"
+					},
+					{
+						content: "<p>Great range of rugs and great level of service, highly recommend them.</p>",
+						cite: "Darren Burrows <span>- Happy Customer</span>"
+					},
+					{
+						content: "<p>We are delighted with the rug that we bought from Luxury Rugs, it was not the cheapest rug but the quality is fantastic and the design transforms the look of the room.</p>",
+						cite: "David Jenkins <span>- Happy Customer</span>"
+					}
+				]
+			%}
 
-						<li class="testimonial glide__slide">
-							<p>I am really happy with the rugs that I bought from Steven at Luxury Rugs, he has some great interior design ideas and really helped us to choose the right rugs for our house.</p>
-
-							<cite>Stuart Davies <span>- Happy Customer</span></cite>
-						</li>
-
-						<li class="testimonial glide__slide">
-							<p>Great range of rugs and great level of service, highly recommend them.</p>
-
-							<cite>Darren Burrows <span>- Happy Customer</span></cite>
-						</li>
-
-						<li class="testimonial glide__slide">
-							<p>We are delighted with the rug that we bought from Luxury Rugs, it was not the cheapest rug but the quality is fantastic and the design transforms the look of the room.</p>
-
-							<cite>David Jenkins <span>- Happy Customer</span></cite>
-						</li>
-					</ul>
-				</div>
-
-				<div class="glide__arrows" data-glide-el="controls">
-					<button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-					<button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-				</div>
-
-				<div class="glide__bullets" data-glide-el="controls[nav]">
-					<button class="glide__bullet" data-glide-dir="=0"></button>
-					<button class="glide__bullet" data-glide-dir="=1"></button>
-					<button class="glide__bullet" data-glide-dir="=2"></button>
-				</div>
-			</div>
+			{% include "_modules/blocks/testimonials" with {
+					params: {
+						bullets: true,
+						arrows: false,
+						slides: slides
+					}
+				}
+			%}
 		</div>
 
 		<div class="block block--instagram block--centered">

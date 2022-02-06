@@ -1,0 +1,24 @@
+{% set arrows = params.arrows ?? false %}
+{% set bullets = params.bullets ?? false %}
+{% set elements = params.slides ?? false %}
+
+{% set slides = [] %}
+{% for element in elements %}
+	{% set slides = slides | merge(
+		[
+			element.content ~ '<cite>' ~ element.cite ~ '</cite>'
+		]
+	)
+%}
+{% endfor %}
+
+
+
+{% include '_modules/carousel' with {
+	params: {
+		bullets: bullets,
+		arrows: arrows,
+		slides: slides
+	}
+}
+%}
