@@ -3930,7 +3930,9 @@ __webpack_require__.r(__webpack_exports__);
 var elem = document.querySelector('.js-masonry');
 var msnry = new (masonry_layout__WEBPACK_IMPORTED_MODULE_0___default())(elem, {
   itemSelector: '.card',
-  columnWidth: 300
+  columnWidth: 390,
+  gutter: 15,
+  fitWidth: true
 });
 
 /***/ }),

@@ -1,0 +1,70 @@
+field: 722633a0-792c-4bed-b405-34f2bf73568c # Page builder
+fieldLayouts:
+  636c4dff-7f09-4c48-9c8f-af8c95ed6589:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0df149f2-226e-40a0-b500-0f41e58fee4b # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 23cbe332-207a-4890-8961-eec49cb01152 # Cite
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0df149f2-226e-40a0-b500-0f41e58fee4b: # Text
+    columnSuffix: wpswqqvq
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: 'The testimonial text'
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  23cbe332-207a-4890-8961-eec49cb01152: # Cite
+    columnSuffix: hzhgqynd
+    contentColumnType: text
+    fieldGroup: null
+    handle: cite
+    instructions: 'Who said this?'
+    name: Cite
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: testimonials
+name: Testimonials
+sortOrder: 1

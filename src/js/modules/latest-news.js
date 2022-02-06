@@ -4,5 +4,7 @@ import Masonry from 'masonry-layout';
 var elem = document.querySelector('.js-masonry');
 var msnry = new Masonry( elem, {
 	itemSelector: '.card',
-	columnWidth: 300
+	columnWidth: 390,
+	gutter: 15,
+	fitWidth: true
   });
